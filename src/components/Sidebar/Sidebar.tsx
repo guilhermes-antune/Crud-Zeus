@@ -18,7 +18,7 @@ const Sidebar = () => {
       <div className="flex flex-col items-center h-full">
         <div className="flex items-center justify-center h-20 w-full">
           <span className="text-white text-2xl">{isOpen ? 'Zeus' : 'Z'}</span>
-          <img src="./logo.png"  className="h-10 w-10 rounded-full" alt="" />
+          {/* <img src="./logo.png"  className="h-10 w-10 rounded-full" alt="" /> */}
         </div>
         <nav className="flex flex-col mt-6 w-full">
           <NavItem href="/" icon={<HomeIcon className="h-6 w-6" />} text="Home" isOpen={isOpen} />
