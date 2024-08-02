@@ -1,7 +1,11 @@
-export default function Products() {
-    return (
-        <h1 className="flex text-3xl text-slate-50 font-bold underline justify-center">
-            Products
-        </h1>
-    )
+"use client";
+
+import Products from '@/components/Product';
+
+export default function ProductsPage() {
+  return (
+    <div className="flex flex-col items-center">
+      <Products />
+    </div>
+  );
 }
